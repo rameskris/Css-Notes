@@ -1,0 +1,82 @@
+
+ul{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+    height: 300px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+    background-color: blue;
+  
+    /* width: 100px; */
+    /* height: 100px; */
+
+    /* flex items property */
+}
+/* flex items property */
+/* without change the html source we can rarrange the order using ****ORDER**** property */
+/* default is zero can use +ve or -ve values */
+
+/* li:nth-child(3){
+    order: 1;
+}
+li:nth-child(1){
+    order: 2;
+}
+li:nth-child(2){
+    order: 3;
+}
+li:nth-child(5){
+    order: -1;
+} */
+
+/* flrx grow default is zero
+
+flex grow takes entire space availabe to it
+*/
+/* li:first-child{   
+    flex-grow: 1;
+} */
+
+/* li:nth-child(3){
+    flex-grow: 3;
+} */
+
+/* flex shrink default is 1 whic means its on zero means off */
+/* li:first-child{
+    flex-shrink: 0;
+} */
+
+/* flex basis 
+flex basis default is auto
+The flex-basis property specifies the initial length of a flexible item
+it take space only what we dedicated to it
+
+*/
+/* li:first-child{
+    flex-basis: 25rem;
+} */
+
+/* flex shorthand */
+/* (flex-grow flex-shrink flex-basis 
+here shrink is zero so its maintain 20rem
+*/
+
+/* li:first-child{
+    flex:1 0 20rem;
+} */
+
+/* align self
+align self acts acoording to its parents align property
+ */
+ li:first-child{
+     align-self: flex-end;
+
+ }

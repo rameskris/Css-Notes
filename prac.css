@@ -1,0 +1,52 @@
+body {
+  background-color: gray;
+}
+.container {
+  border: 2px solid black;
+  background: #219dde;
+  /* height: 300px; */
+  display: flex;
+
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse */
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+
+  /* align-content: stretch; */
+}
+.container div {
+  background: white;
+  margin: 5px;
+  text-align: center;
+  color: black;
+  /* padding: 30px; */
+}
+/* div:nth-child(1) {
+  padding: 40px;
+} */
+/* flex items properties */
+div:nth-child(3) {
+  /* flex-grow: 1; */
+  /* flex-shrink: 5; */
+}
+div:nth-child(1) {
+  /* flex-grow: 2; */
+  flex-basis: 600px;
+  /* flex-shrink: 5;  to see this effct add content in html*/
+}
+/* div:nth-child(3) {
+  color: red;
+  order: 4;
+}
+div:nth-child(6) {
+  color: red;
+  order: -1;
+}
+div:nth-child(4) {
+  color: red;
+  order: 3;
+} */
+/* flex shrink default 1 */
+
+/* alignself align individuala items in cross orgin */
+/* flex basis defines actual length of the item width or heigh default is auto  */
