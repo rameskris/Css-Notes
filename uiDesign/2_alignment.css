@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  border-left: 17px solid black;
+  height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* topbott leftand right 
+  we auto to put content center on block level settings */
+}
+
+/* links */
+a {
+  color: white;
+  text-decoration: none;
+}
+/* logo */
+a.logo {
+  display: block;
+  padding-top: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* Heading */
+h1 {
+  margin: 64px 0 30px 30px;
+}
+
+/* paragraph */
+p {
+  color: #b2cef2;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+a.cta {
+  display: inline-block;
+  padding: 14px 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  background-color: rgb(65, 178, 243);
+  transform: translateX(50%);
+  margin-top: 32px;
+}
+
+.container {
+  border-left: 1px solid black;
+}
+
+/* improvements */
+h1 {
+  margin-left: 0;
+}
+
+a.cta {
+  transform: none;
+}
