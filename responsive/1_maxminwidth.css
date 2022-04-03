@@ -1,0 +1,20 @@
+/* .cont {
+    width: 600px;
+    height: 600px;
+    background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
+} */
+
+/* maxwidth stays 600 and respnsive below 600 but not go above 600 ,it maintains 600 if its go beyond 600 */
+/* does not add scroll bar like normal width */
+/* .cont {
+     max-width: 600px;
+    height: 600px;
+    background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
+} */
+
+/* minwidth extends above 600 but its added scrrol bar if it goes below 600 */
+.cont {
+    min-width: 600px;
+    height: 600px;
+    background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
+}
