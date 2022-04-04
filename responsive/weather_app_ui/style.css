@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility components */
+/* html root element access via class we reduce 16px to 10px */
+
+:root{
+    font-size: 62.5%;
+
+}
+body{
+    background-color:#0f9b8e ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* paragraph */
+/* 1.5rem rem is reletive to root eleme 1.5*10px if we change :root here its changes */
+p{
+    font-size: 1.5rem;
+    margin:0.5rem 0;
+}
+
+/* icons */
+i{
+    font-size: 5rem;
+}
+sup{
+    font-size: 0.8rem;
+}
+
+/* to change the color over selection default is blue */
+::selection{
+    color: orangered;
+    background-color: orange;
+    
+}
+
+/* ************* Main Styling************* */
+section#weather{
+    margin:2rem auto 0;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+div.weather_info_temp{
+    padding: 4rem;
+}
+div.weather_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem 0;
+    
+}
