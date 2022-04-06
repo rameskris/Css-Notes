@@ -59,3 +59,10 @@ div.weather_info{
     margin: 5rem 0;
     
 }
+/* weather temp container */
+
+div.weather_temp{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10rem;
+}

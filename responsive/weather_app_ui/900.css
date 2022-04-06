@@ -1,0 +1,14 @@
+/* @media screen and (min-width:900px) {
+    section#weather {
+        width: 90rem;
+    }
+    
+} */
+
+
+section#weather {
+        width: 90rem;
+}
+
+
+/* if you add media in linke you dont need it heare */

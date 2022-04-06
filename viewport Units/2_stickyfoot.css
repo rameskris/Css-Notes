@@ -1,0 +1,32 @@
+:root{
+    font-size: 62.5%
+}
+header{
+    background-color: lightsteelblue;
+    height:7.5rem
+}
+section{
+    height:30rem ;
+    background-color: steelblue;
+}
+footer{
+    height:8.5rem;
+    background-color: silver;
+}
+header,
+section,
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 2.5rem;
+    /* align-content: center; */
+}
+
+/* forst solutions */
+section{
+    height:calc(100vh - 7.5rem - 8.5rem)
+}
