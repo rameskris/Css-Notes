@@ -1,0 +1,15 @@
+header{
+    /* 40 percent of view port */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* 100vh  means 10 percent of screen height 40 vh means 40percent depends on screen size 800 height means
+     40 percent of 800  */
+    height:100vh;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* you know pixels are not dynamic so use view port units */
+    /* padding: 80px */
+    /* with view port units padding are dynamic depends on screen  */
+    padding: 10vh 5vw;
+}

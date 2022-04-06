@@ -1,0 +1,21 @@
+header{
+    background-color:white;
+    padding:5vh 5vw;
+
+    border-top:5px solid lightslategray;
+
+    /*Making the border responsive => vw=[(pixel value/viewport width)*100}
+    here 5px/1500 *100(width of screen if padding on top and bottom use device height) 
+    here vw because border width  */
+    
+    border-top:0.33vw solid black;
+
+    border-top:calc(2px+0.186vw) solid lightgrey
+
+}
+
+
+a{
+    text-decoration: none ;
+    color: #444;
+}
